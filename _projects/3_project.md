@@ -1,81 +1,48 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Low impact development
+description: Also called sponge city or best management practices
+img: assets/img/SC.jpg
 importance: 3
 category: work
+related_publications: LID
+giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## The influence of Low Impact Development (LID) on basin runoff in a half-urbanized catchment: A case study in San Antonio, Texas
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Low Impact Development (LID) was promoted as an alternative to conventional urban drainage methods. The effects of LID at the site or urban scales have been widely evaluated. This project aims to investigate the impact of LID implementation on basin runoff at a regional scale in a half-urbanized catchment, particularly the overlap of urban and rural sub-flows at peak times. A SUPERFLEX conceptual model framework is adapted as a semi-distributed model to simulate the rainfall-runoff relationship in the catchment for San Antonio, Texas, as a case study. Scenario analyses of both urban development and LID implementation are conducted. Results show that (1) the infill urban development strategy benefits more from runoff control than the sprawl urban development; (2) in non-flood season, permeable pavements, bioretention cells, and vegetated swales decrease peak runoff significantly, and permeable pavements, bioretention cells, and green roofs are good at runoff volume retention; (3) contrary to the general opinion about the peak reduction effect of LID, for a partly urbanized, partly rural basin, the LID implementation delays urban peaks and may cause larger stacking of rural and urban peak runoffs, leading to larger basin peaks under extremely wet conditions.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/5catchment.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The basin of the city of San Antonio. The urban areas are located close to the outlet of the basin.
 </div>
+
+## Sponge City Multidisciplinary Project
+
+The Sponge City Project consists of a multidisciplinary team of six MSc students from the disciplines of Hydraulic Engineering, Water Management, Architecture and Urbanism. In summer 2018, the Sponge City Project Team went to China to work on the implementation of the Sponge City programme, an initiative launched by the government of China to deal with urban flooding problems, due to changed in land use pattern and climate change. 
+
+Based on a Research by Design approach, the team developed an integrated design system for the ErQi International Business District, in Wuhan. This meant the combination of analytical thinking, focused on the translation and the interpretation of data, and design thinking, with a focus on the development of new knowledge and spatial translation. Participating in this project presented the opportunity to work on an actual assignment together with the stakeholders such as the designers and developers, while still maintaining the academic freedom to formulate their own design in an interdisciplinary way. 
+
+The report can be downloaded from the [TU Delft repository](https://repository.tudelft.nl//islandora/object/uuid:58200b07-ee01-42e8-8a0f-8881dcda5c07). 
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/SC_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SC_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
 {% endraw %}

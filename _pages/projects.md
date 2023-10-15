@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Sui’s research interests center on urban rainfall and hydrological process. Her prior interdisciplinary engagements revolved primarily around three key areas:urban climate, hydrology, and machine learning. 
 nav: true
 nav_order: 2
 display_categories: [work, fun]
